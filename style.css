@@ -1,0 +1,157 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/*.nav-link:hover{
+	border-radius: 15px;
+	background:linear-gradient(120deg, #00d2ff 0%, #3a7bd5 100%);
+}*/
+h1 { font-size: 66px; font-weight: 700; line-height: 80px; }
+h2 { font-size: 48px; margin-bottom: 30px; }
+h3 { font-size: 33px; }
+h5 { margin-bottom: 0px; }
+
+p {
+    font-size: 18px;
+    color: #999999;
+    
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+.topmargin-xs {margin-top: 15px;}
+.topmargin-sm {margin-top: 30px;}
+.topmargin-lg {margin-top: 60px;}
+#hero {
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+#hero p {
+    color: #ffffff !important;
+}
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+#contact p{
+	font-size: 18px;
+
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+#contact h3{
+	font-size: 18px;
+    opacity: .5;
+    line-height: 1.8;
+	margin-bottom: 0px;
+	padding: 2px;
+}
+#contact h4{
+	font-size: 18px;
+    color: #999999;
+    opacity: .5;
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+
+.carousel {
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.carousel-item p {
+    font-size: 26px;
+	font-weight: 400;
+    opacity: .5;
+ 
+}
+
+.carousel-indicators li {
+    background: #999999;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+
+.carousel-control-next, .carousel-control-prev { 
+	color: #111111;
+    opacity: 1;
+    width: 5%;
+}
+
+.control-button {
+    background: #228dd9;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #999999;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.carousel-container p{
+    color: #0f0f0f;
+}
+.testimonial-user {
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.testimonial-user h6 {
+    margin-bottom: 0px;
+}
+
+.testimonial-user span {
+    font-size: 12px;
+}
+
+.testimonial-user img {
+    border-radius: 100%;
+    max-width: 50px;
+    text-align: center;
+}
+
+/* //////////////
+   Modal
+//////////////*/
+
+/* //////////////
+   Media queries
+//////////////*/
+
+@media (max-width: 575.98px) { 
+    h1 { font-size: 40px; line-height: normal; }
+    .portfolio-details h2 { font-size: 32px; }
+    .plans { min-width: unset; padding: 40px; }
+    .carousel-item p { font-size: 20px; }
+
+    .footer-menu { 
+        display: block !important;
+        padding: 20px 0 !important;
+        font-size: 20px;
+    
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .portfolio-details h2 { font-size: 30px; }
+    .plans { min-width: unset; padding: 40px 20px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+@media (min-width: 1200px) { }
